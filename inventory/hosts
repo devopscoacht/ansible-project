@@ -1,10 +1,10 @@
 [webservers]
 
-web1 ansible_host = #ip
-web2 ansible_host = #ip
+web1 ansible_host =54.152.197.186
+web2 ansible_host =54.173.106.157
 
 [db_servers]
-db1 ansible_host=
+db1 ansible_host=44.201.206.98
 
 [all: vars]
 ansible_python_interpreter
